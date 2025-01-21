@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    color: white;
+    background-color: black;
+    margin: 3px;
+    padding: 5px;
+}
+.container{
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    
+    display: grid;
+    /* grid-template-columns: auto 200px auto ;
+    grid-template-rows: 100px auto; */
+
+    grid-template-areas: "f1 f1 f2 f2 f2 f2 f2 f2"
+    "s1 s1 s1 s1 s1 s2 s2 s2"
+    "t1 t1 t2 t2 t3 t3 t4 t4"
+    "fo1 fo1 fo1 fo2 fo2 fo2 fo3 fo3"
+    "fi1 fi2 fi3 fi4 fi5 fi5 fo3 fo3"                        
+}
+
+.card1{
+    grid-area: f1;
+}
+.card2{
+    grid-area: f2;
+}
+.card3{
+    grid-area: s1;
+}
+.card4{
+    grid-area: s2;
+}
+.card5{
+    grid-area: t1;
+}
+.card6{
+    grid-area: t2;
+}
+.card7{
+    grid-area: t3;
+}
+.card8{
+    grid-area: t4;
+}
+.card9{
+    grid-area: fo1;
+}
+.card10{
+    grid-area: fo2;
+}
+.card11{
+    grid-area: fo3;
+}
+.card12{
+    grid-area: fi1;
+}
+.card13{
+    grid-area: fi2;
+}
+.card14{
+    grid-area: fi3;
+}
+.card15{
+    grid-area: fi4;
+}
+.card16{
+    grid-area: fi5;
+}
